@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  padding: 1rem 2rem 3rem 2rem;
+}
+
+.footer-icon,
+svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer-icon {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    text-align: center;
+    display: block;
+  }
+  footer div{
+    margin-bottom: 0.5rem;
+  }
+}
